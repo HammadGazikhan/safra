@@ -34,7 +34,7 @@ export default function TeamsPage() {
         </div>
         <div className="rounded-lg overflow-hidden shadow-md">
           <Image
-            src="https://images.unsplash.com/photo-1614287813328-3f437ebf540d?auto=format&fit=crop&w=870&q=80"
+            src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
             alt="Our Global Team"
             width={700}
             height={500}

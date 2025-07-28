@@ -1,5 +1,6 @@
 // src/components/sections/Hero.tsx
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,15 +15,20 @@ export default function Hero() {
         </p>
 
         <div className="flex justify-center gap-4 mt-8">
-          <Button className="bg-blue-600 hover:bg-blue-700">
-            Get in Touch
-          </Button>
-          <Button
-            variant="outline"
-            className=" border-white hover:bg-white text-black hover:text-blue-600"
-          >
-            Explore Services
-          </Button>
+          <Link href="/contact" className="text-blue-600 hover:underline">
+            <Button className="bg-blue-600 hover:bg-blue-700">
+              Get in Touch
+            </Button>
+          </Link>
+          <Link href="/services" className="text-blue-600 hover:underline">
+            {" "}
+            <Button
+              variant="outline"
+              className=" border-white hover:bg-white text-black hover:text-blue-600"
+            >
+              Explore Services
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

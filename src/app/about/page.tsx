@@ -25,7 +25,7 @@ export default function AboutPage() {
         </div>
         <div className="rounded-lg overflow-hidden shadow-md">
           <Image
-            src="https://images.unsplash.com/photo-1601933470928-c9a9a3bedb3a?auto=format&fit=crop&w=870&q=80"
+            src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
             alt="Safra IT Team"
             width={700}
             height={500}

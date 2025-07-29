@@ -44,7 +44,7 @@ export default function ServicesOverviewPage() {
       <p className="text-gray-700 text-lg mb-12 max-w-3xl">
         Safra IT Consulting delivers flexible, scalable IT solutions designed to
         help your business grow faster. From Microsoft-certified engineers to
-        24/7 support teams, we help you extend your delivery — quietly and
+        24/7 support teams, we help you extend your delivery quietly and
         efficiently.
       </p>
 

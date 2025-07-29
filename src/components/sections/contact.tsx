@@ -13,7 +13,7 @@ export default function ContactSection() {
           Get in Touch
         </h2>
         <p className="text-gray-600 mb-6">
-          Looking forward to helping you grow faster (with less pain).
+          Looking forward to helping you grow faster .
         </p>
 
         <form
@@ -54,8 +54,8 @@ export default function ContactSection() {
 
         <div className="mt-6">
           <a
-            href="https://calendly.com/your-link" // replace with real link
-            target="_blank"
+            href="" // replace with real link
+            // target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline text-sm hover:text-blue-800"
           >

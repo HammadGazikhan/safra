@@ -15,7 +15,7 @@ export default function AboutPage() {
           <p className="text-gray-700 text-lg">
             At <strong>Safra IT Consulting</strong>, we specialize in delivering
             flexible and scalable IT outsourcing models to help global clients
-            grow faster — with less pain.
+            grow faster with less pain.
             <br />
             <br />
             From certified Microsoft consultants to cybersecurity engineers and
@@ -43,7 +43,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-700">
             To empower IT service providers with access to certified, dependable
-            offshore talent — delivered quietly, professionally, and with
+            offshore talent delivered quietly, professionally, and with
             long-term partnership in mind.
           </p>
         </div>
@@ -53,7 +53,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-700">
             To become a globally trusted partner for IT outsourcing and managed
-            service delivery, enabling clients to grow, scale, and innovate —
+            service delivery, enabling clients to grow, scale, and innovate
             faster.
           </p>
         </div>
@@ -66,15 +66,15 @@ export default function AboutPage() {
         </h2>
         <p className="text-gray-700 max-w-2xl mx-auto">
           Our extended team operates from multiple regions, trained on global
-          standards and aligned to your brand — acting as a seamless extension
-          of your delivery or support arm.
+          standards and aligned to your brand acting as a seamless extension of
+          your delivery or support arm.
         </p>
       </div>
 
       {/* Section 4: Final CTA */}
       <div className="bg-blue-50 p-10 rounded-lg text-center">
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-          Looking forward to helping you grow faster — with less pain.
+          Looking forward to helping you grow faster with less pain.
         </h2>
 
         <Link href="/contact">

@@ -31,7 +31,7 @@ export default function CareersPage() {
             Why Work With Us?
           </h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>100% Remote — work from anywhere</li>
+            <li>100% Remote work from anywhere</li>
             <li>Flexible working hours</li>
             <li>Project-based consulting roles</li>
             <li>Global client exposure</li>

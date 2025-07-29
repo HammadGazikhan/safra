@@ -19,20 +19,39 @@ export default function SoftwareDevPage() {
             Software Development
           </h1>
           <p className="text-gray-700 mb-6">
-            We offer full-cycle software services from planning to deployment —
-            backed by proven Microsoft expertise.
+            We provide full-cycle software development services tailored for
+            startups, enterprises, and IT vendors — from planning and UI/UX to
+            development, testing, deployment, and ongoing support.
           </p>
-          <ul className="list-disc ml-5 space-y-2 text-gray-600">
-            <li>Web & mobile app development</li>
-            <li>API integration, microservices</li>
-            <li>DevOps & CI/CD enablement</li>
-            <li>Tech stack: React, .NET, Node.js, Azure, Flutter, and more</li>
+
+          <ul className="list-disc ml-5 space-y-2 text-gray-600 text-sm">
+            <li>Web application development (React, Angular, Next.js)</li>
+            <li>
+              Mobile app development (iOS, Android, Flutter, React Native)
+            </li>
+            <li>Custom enterprise solutions (.NET, Java, Python)</li>
+            <li>Cloud-native applications (Azure, AWS, GCP)</li>
+            <li>
+              API development & 3rd-party integrations (REST, GraphQL, SOAP)
+            </li>
+            <li>
+              Microservices architecture & containerization (Docker, Kubernetes)
+            </li>
+            <li>
+              DevOps & CI/CD automation (GitHub Actions, Azure DevOps, Jenkins)
+            </li>
+            <li>Database engineering (SQL Server, MongoDB, PostgreSQL)</li>
+            <li>Quality assurance & automated testing (Cypress, Selenium)</li>
+            <li>
+              Agile product delivery with dedicated teams or staff augmentation
+            </li>
           </ul>
+
           <Link
             href="/contact"
             className="mt-6 inline-block text-blue-600 underline text-sm hover:text-blue-800"
           >
-            Let's talk about your project →
+            Let’s talk about your project →
           </Link>
         </div>
 

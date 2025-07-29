@@ -12,8 +12,8 @@ export default function Intro() {
             {" "}
             technical resource outsourcing
           </span>
-          , software development, and strategic partner development services —
-          all under a white-label model.
+          , software development, and strategic partner development services all
+          under a white-label model.
         </p>
       </div>
     </section>

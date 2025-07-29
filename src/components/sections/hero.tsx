@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="py-24 bg-gray-900 text-white text-center">
       <div className="max-w-5xl mx-auto px-4">
-        <h1 className="text-[27px] md:text-5xl font-red-Poppins font-bold mb-6">
+        <h1 className="text-[27px] md:text-5xl  font-bold mb-6">
           Empowering Microsoft Partners through Staff Augmentation, Strategic
           Microsoft Alliance and 24/7 Managed Services & Support.
         </h1>

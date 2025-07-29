@@ -46,7 +46,7 @@ export default function ServicesOverview() {
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-base">
           Safra delivers specialized solutions through white-label staffing,
-          Microsoft programs, and agile tech development — all remote, all under
+          Microsoft programs, and agile tech development all remote, all under
           your brand.
         </p>
       </div>

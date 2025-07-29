@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Breadcrumb from "@/components/ui/breadcrumb";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function TeamsPage() {
   return (
@@ -50,12 +52,9 @@ export default function TeamsPage() {
         <p className="text-gray-600 mb-4">
           Check open roles or send us your profile.
         </p>
-        <a
-          href="/careers"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition"
-        >
-          View Careers
-        </a>
+        <Link href="/careers">
+          <Button>View Careers</Button>
+        </Link>
       </div>
     </section>
   );

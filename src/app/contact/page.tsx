@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Breadcrumb from "@/components/ui/breadcrumb";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -63,12 +64,7 @@ export default function ContactPage() {
           />
         </div>
 
-        <button
-          type="submit"
-          className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition"
-        >
-          Submit
-        </button>
+        <Button type="submit">Submit</Button>
 
         {submitted && (
           <p className="text-green-600 font-medium pt-2">
@@ -80,9 +76,9 @@ export default function ContactPage() {
       <div className="mt-10 text-center">
         <p className="text-gray-600 mb-3">Prefer to speak directly?</p>
         <Link
-          href="https://calendly.com/your-schedule-link"
-          target="_blank"
-          className="inline-block text-sm text-blue-600 hover:underline font-medium"
+          href=""
+          // target="_blank"
+          className="inline-block text-sm text-[#06c6ef] hover:underline font-medium"
         >
           📅 Book a Call →
         </Link>

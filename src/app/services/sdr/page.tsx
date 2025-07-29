@@ -20,11 +20,11 @@ export default function SDRPage() {
           </h1>
           <p className="text-gray-700 mb-6">
             Trained SDRs working under your brand to generate, qualify, and
-            nurture outbound leads across global regions — 100% white-labeled.
+            nurture outbound leads — 100% white-labeled.
           </p>
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
             <li>Outbound lead generation & qualification</li>
-            <li>Multi-region trained SDR pool</li>
+            <li>trained SDR pool</li>
             <li>Remote delivery with full transparency</li>
             <li>White-label integration with your team</li>
           </ul>

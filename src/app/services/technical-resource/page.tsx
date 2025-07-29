@@ -23,6 +23,7 @@ export default function TechnicalResourcePage() {
             Fully scalable, cost-effective, and white-labeled.
           </p>
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
+            <li>Solution architects</li>
             <li>Remote L1, L2, L3 engineers & architects</li>
             <li>Region-specific pools for timezone alignment</li>
             <li>Offshore, white-labeled delivery model</li>

@@ -23,15 +23,14 @@ export default function SPDPage() {
             benefits, certifications, and co-sell growth.
           </p>
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
-            <li>
-              Transition from Silver/Gold to Microsoft Solutions Partner
-              (Certification-as-a-Service)
-            </li>
-            <li>Renewing & claiming CO-OP funds</li>
-            <li>Engaging with MCI and MAICPP programs</li>
+            <li>Microsoft Solutions Partner Designation</li>
+            <li>Transition from Silver/Gold to Microsoft Solutions Partner</li>
+            <li>MCI Engagements</li>
+            <li>Helping Navigate MAICPP Program</li>
             <li>MPN audits & optimization</li>
             <li>Managing CPOR / DPOR points</li>
           </ul>
+
           <Link
             href="/contact"
             className="mt-6 inline-block text-blue-600 underline text-sm hover:text-blue-800"

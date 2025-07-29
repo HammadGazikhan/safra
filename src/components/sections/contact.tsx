@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Button } from "../ui/button";
 
 export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
@@ -29,14 +30,14 @@ export default function ContactSection() {
               name="name"
               required
               placeholder="Your Name"
-              className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none"
+              className="w-full h-9 md:h-12 px-4 py-2 rounded-md border border-gray-300 focus:outline-none"
             />
             <input
               type="email"
               name="email"
               required
               placeholder="Your Email"
-              className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none"
+              className="w-full h-9 md:h-12 px-4 py-2 rounded-md border border-gray-300 focus:outline-none"
             />
           </div>
           <textarea
@@ -46,12 +47,9 @@ export default function ContactSection() {
             placeholder="Your Message"
             className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none"
           />
-          <button
-            type="submit"
-            className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
-          >
+          <Button type="submit">
             {submitted ? "Submitted ✓" : "Send Message"}
-          </button>
+          </Button>
         </form>
 
         <div className="mt-6">

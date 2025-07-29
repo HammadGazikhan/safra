@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
 
 const services = [
   {
@@ -74,11 +75,8 @@ export default function ServicesOverviewPage() {
         <p className="text-gray-700 mb-5">
           We're here to guide you through every step.
         </p>
-        <Link
-          href="/contact"
-          className="inline-block text-white bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md text-sm font-medium"
-        >
-          Talk to Us
+        <Link href="/contact">
+          <Button>Talk to Us</Button>
         </Link>
       </div>
     </section>

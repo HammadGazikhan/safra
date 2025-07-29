@@ -15,9 +15,6 @@ export default function Intro() {
           , software development, and strategic partner development services —
           all under a white-label model.
         </p>
-        <p className="italic text-sm text-gray-500 mt-4">
-          You maintain the client, we quietly deliver the project.
-        </p>
       </div>
     </section>
   );

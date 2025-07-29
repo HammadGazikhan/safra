@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function CareersPage() {
@@ -54,11 +55,8 @@ export default function CareersPage() {
           </a>
         </p>
 
-        <Link
-          href="/contact"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition"
-        >
-          Contact Us Instead
+        <Link href="/contact">
+          <Button>Contact Us Instead</Button>
         </Link>
       </div>
     </section>

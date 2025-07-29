@@ -5,7 +5,7 @@ const services = [
   {
     title: "SDR Outsourcing",
     description:
-      "Trained SDRs working remotely under your brand for lead generation and qualification across global regions.",
+      "Trained SDRs working remotely under your brand for lead generation and qualification.",
     href: "/services/sdr",
   },
   {
@@ -24,7 +24,7 @@ const services = [
     title: "Software Development",
     description:
       "Agile development teams for modern web, mobile, API, and DevOps. React, .NET, Azure, and more.",
-    href: "/services/software",
+    href: "/services/software-development",
   },
   {
     title: "24/7 Managed Services & Support",

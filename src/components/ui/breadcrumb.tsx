@@ -13,7 +13,7 @@ export default function Breadcrumb({ paths }: BreadcrumbProps) {
         {paths.map((path, i) => (
           <li key={i} className="flex items-center">
             {path.href ? (
-              <Link href={path.href} className="hover:text-blue-600">
+              <Link href={path.href} className="hover:text-[#20aad2fc]">
                 {path.name}
               </Link>
             ) : (

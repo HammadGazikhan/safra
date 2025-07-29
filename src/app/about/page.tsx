@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -75,11 +76,9 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold text-gray-900 mb-3">
           Looking forward to helping you grow faster — with less pain.
         </h2>
-        <Link
-          href="/contact"
-          className="text-white bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md text-sm font-medium"
-        >
-          Book a Consultation
+
+        <Link href="/contact">
+          <Button>Book a Consultation</Button>
         </Link>
       </div>
     </section>

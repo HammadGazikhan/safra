@@ -22,7 +22,7 @@ export default function ContactPage() {
           e.preventDefault();
           setSubmitted(true);
         }}
-        className="space-y-6"
+        className="space-y-2"
       >
         <div>
           <label className="block text-sm font-medium text-gray-700">
@@ -31,7 +31,7 @@ export default function ContactPage() {
           <input
             type="text"
             required
-            className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            className="mt-1 h-10 md:h-12 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
           />
         </div>
         <div>
@@ -41,7 +41,7 @@ export default function ContactPage() {
           <input
             type="email"
             required
-            className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            className="mt-1 h-10 md:h-12 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
           />
         </div>
         <div>
@@ -50,7 +50,7 @@ export default function ContactPage() {
           </label>
           <input
             type="text"
-            className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            className="mt-1 h-10 md:h-12 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
           />
         </div>
         <div>

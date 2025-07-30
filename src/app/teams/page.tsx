@@ -13,10 +13,10 @@ export default function TeamsPage() {
       </h1>
 
       <p className="text-gray-700 text-lg text-center mb-16 max-w-3xl mx-auto">
-        Our team is a collective of passionate professionals from around the
-        world each bringing unique expertise in Microsoft technologies, software
-        development, cybersecurity, and managed services. We believe in working
-        together, not in the same room, but toward the same goal.
+        Our team is a collective of passionate professionals, each bringing
+        unique expertise in Microsoft technologies, software development,
+        cybersecurity, and managed services. We believe in working together, not
+        in the same room, but toward the same goal.
       </p>
 
       <div className="grid md:grid-cols-2 gap-10 items-center">

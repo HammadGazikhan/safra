@@ -35,7 +35,7 @@ export default function CareersPage() {
             <li>Flexible working hours</li>
             <li>Project-based consulting roles</li>
             <li>Global client exposure</li>
-            <li>Opportunity to grow into leadership roles</li>
+            <li>Career Growth Opportunities</li>
           </ul>
         </div>
       </div>

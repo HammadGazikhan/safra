@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         {/* Brand Info */}
         <div>
-          <h2 className="text-[27px] font-red-Poppins font-bold text-white mb-3">
+          <h2 className="text-[27px]  font-bold text-white mb-3">
             Safra Consulting
           </h2>
           <p className="text-sm text-gray-400 leading-relaxed">

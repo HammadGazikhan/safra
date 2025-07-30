@@ -14,7 +14,7 @@ export default function ContactPage() {
 
       <h1 className="text-4xl font-bold mb-4 text-gray-900">Get in Touch</h1>
       <p className="text-gray-700 mb-8">
-        Looking forward to helping you grow faster — with less pain.
+        Looking forward to helping you grow faster.
       </p>
 
       <form

@@ -12,7 +12,7 @@ const services = [
     href: "/services/sdr",
   },
   {
-    title: "Microsoft Alliances",
+    title: "Microsoft Alliance",
     description:
       "Microsoft partnership & program support including CO-OP, MCI, CPOR, and Certification assistance.",
     href: "/services/microsoft-alliances",

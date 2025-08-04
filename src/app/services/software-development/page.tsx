@@ -20,7 +20,7 @@ export default function SoftwareDevPage() {
           </h1>
           <p className="text-gray-700 mb-6">
             We provide full-cycle software development services tailored for
-            startups, enterprises, and IT vendors — from planning and UI/UX to
+            startups, enterprises, and IT vendors from planning and UI/UX to
             development, testing, deployment, and ongoing support.
           </p>
 

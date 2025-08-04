@@ -18,7 +18,7 @@ const services = [
   {
     title: "Software Development",
     description:
-      "From MVPs to enterprise platforms — we help you ship high-quality software products faster.",
+      "From MVPs to enterprise platforms we help you ship high-quality software products faster.",
     href: "/services/software-development",
   },
   {

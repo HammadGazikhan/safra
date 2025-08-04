@@ -16,7 +16,7 @@ export default function SPDPage() {
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            Microsoft Alliances
+            Microsoft Alliance
           </h1>
           <p className="text-gray-700 mb-6">
             We help you align strategically with Microsoft to unlock partner
@@ -32,13 +32,17 @@ export default function SPDPage() {
             <li>MPN audits & optimization</li>
             <li>Managing CPOR / DPOR points</li> */}
             <li> Helping Navigate MAICPP Program</li>
-            <li> ⁠Transition (as it is)</li>
+            <li>
+              {" "}
+              Transition from legacy Silver/Gold competency to the new Microsoft
+              Solutions Partner Designation
+            </li>
             <li>
               Proactive Assistance for Solutions Partner Designation Achievement{" "}
             </li>
             <li>Skilling Metrics Gap Analysis & Solution </li>
             <li> CO-OP Funds Management and MCI Engagement </li>
-            <li> MPN audits as it is </li>
+            <li> MPN Audits and Optimization </li>
             <li> CPOR/DPOR Strategy & Reporting </li>
             <li> Go-to-market Strategy</li>
           </ul>

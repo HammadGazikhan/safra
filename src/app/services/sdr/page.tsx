@@ -25,8 +25,8 @@ export default function SDRPage() {
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
             <li>Outbound lead generation & qualification</li>
             <li>
-              Trained SDR pool skilled in B2B outreach, CRMs (HubSpot,
-              Salesforce), and sales automation tools.
+              Trained SDR pool skilled in B2B outreach and sales automation
+              tools.
             </li>
             <li>Remote delivery with full transparency</li>
             <li>White-label integration with your team</li>

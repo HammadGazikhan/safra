@@ -19,8 +19,8 @@ export default function ManagedPage() {
             24/7 Managed Services & Support
           </h1>
           <p className="text-gray-700 mb-6">
-            Our team operates as your white-labeled MSP/MSSP — delivering
-            secure, scalable IT management and infrastructure support.
+            Our team operates as your white-labeled MSP/MSSP delivering secure,
+            scalable IT management and infrastructure support.
           </p>
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
             <li>24/7 operations with SLA-driven delivery</li>

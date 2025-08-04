@@ -8,7 +8,7 @@ export default function Testimonials() {
     {
       name: "Sarah Khan",
       role: "COO, CloudTech Solutions",
-      text: "The SPD Alliance support from Safra helped us pass Microsoft certifications and unlock co-sell benefits. Incredible value.",
+      text: "The Microsoft Alliance support from Safra helped us pass Microsoft certifications and unlock co-sell benefits. Incredible value.",
     },
     {
       name: "Ali Merchant",

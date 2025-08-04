@@ -12,10 +12,10 @@ const services = [
     href: "/services/sdr",
   },
   {
-    title: "SPD Alliances",
+    title: "Microsoft Alliances",
     description:
       "Microsoft partnership & program support including CO-OP, MCI, CPOR, and Certification assistance.",
-    href: "/services/spd",
+    href: "/services/microsoft-alliances",
   },
   {
     title: "Technical Resource Outsourcing",

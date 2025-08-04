@@ -25,7 +25,7 @@ export default function TechnicalResourcePage() {
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
             <li>Remote L1, L2, L3 engineers & solution architect</li>
             <li>Region-specific pools for timezone alignment</li>
-            <li>Offshore, white-labeled delivery model</li>
+            <li>Offshore, white-labeled delivery model</li> 
             <li>Fast onboarding, no long-term hiring</li>
           </ul>
           <Link

@@ -28,10 +28,10 @@ const services = [
     href: "/services/managed-services",
   },
   {
-    title: "SPD Alliances",
+    title: "Microsoft Alliances",
     description:
       "We support Microsoft partners with certification-as-a-service, audits, CO-OP claims, and more.",
-    href: "/services/spd",
+    href: "/services/microsoft-alliances",
   },
 ];
 

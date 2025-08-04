@@ -98,9 +98,9 @@ export const Navbar = (props: Navbar1Props) => {
   return (
     <section
       id="relume"
-      className="z-[999]  flex w-full items-center border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%]"
+      className="z-[999]  flex w-full items-center border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%] "
     >
-      <div className="size-full lg:max-w-[80%] mx-auto lg:flex lg:items-center lg:justify-between">
+      <div className="size-full lg:max-w-7xl mx-auto lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href={logo.url}>
             <img src={logo.src} alt={logo.alt} className="h-12 w-12" />
@@ -154,12 +154,12 @@ export const Navbar = (props: Navbar1Props) => {
               </a>
             )
           )}
-          <Link
+          {/* <Link
             href={"/contact"}
             className="mt-6 flex flex-col items-center gap-4 lg:ml-4 lg:mt-0 lg:flex-row"
           >
             <Button>book a call</Button>
-          </Link>
+          </Link> */}
         </motion.div>
       </div>
     </section>

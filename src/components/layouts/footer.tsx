@@ -14,8 +14,8 @@ export default function Footer() {
             Safra Consulting
           </h2>
           <p className="text-sm text-gray-400 leading-relaxed">
-            Empowering Microsoft Partners through Smart Staffing, Strategic
-            Alliances & Managed Services.
+            Empowering Microsoft Partners through Staff Augmentation, Microsoft
+            Alliance and 24/7 Managed Services & Support.
           </p>
         </div>
 

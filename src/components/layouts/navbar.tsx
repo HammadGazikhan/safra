@@ -181,7 +181,7 @@ const SubMenu = ({
       onMouseLeave={() => !isMobile && setIsDropdownOpen(false)}
     >
       <button
-        className="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
+        className="flex w-full text-gray-700 items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
         onClick={() => setIsDropdownOpen((prev) => !prev)}
       >
         <span>{navLink.title}</span>
@@ -215,7 +215,7 @@ const SubMenu = ({
             initial="close"
             exit="close"
             transition={{ duration: 0.2 }}
-            className="bg-white lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
+            className="bg-white rounded-md lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
           >
             {navLink.subMenuLinks?.map((navLink, index) => (
               <a
@@ -241,9 +241,17 @@ export const Navbar1Defaults: Props = {
   },
   navLinks: [
     { title: "Home", url: "/" },
-    { title: "About", url: "/about" },
+    // {
+    //   title: "Company",
+    //   url: "#",
+    //   subMenuLinks: [
+    //     { title: "About Us", url: "/company/about" },
+
+    //     { title: "Teams", url: "/company/teams" },
+    //   ],
+    // },
+    { title: "About Us", url: "/about" },
     { title: "Services", url: "/services" },
-    { title: "Teams", url: "/teams" },
     { title: "Careers", url: "/careers" },
     { title: "Contact", url: "/contact" },
   ],

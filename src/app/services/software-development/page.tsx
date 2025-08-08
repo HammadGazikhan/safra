@@ -1,6 +1,28 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Software Development Services | Safra IT Consulting",
+  description:
+    "Full-cycle web, mobile, and enterprise software development with Microsoft and modern tech stacks.",
+  openGraph: {
+    title: "Software Development Services",
+    description:
+      "We provide custom software development, API integration, DevOps, and CI/CD solutions.",
+    url: "https://www.safraconsulting.com/services/software-development",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-services.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Software Development Services",
+    description:
+      "We provide custom software development, API integration, DevOps, and CI/CD solutions.",
+    images: ["/og-services.png"],
+  },
+};
 
 export default function SoftwareDevPage() {
   return (

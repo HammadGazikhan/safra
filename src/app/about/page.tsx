@@ -3,7 +3,28 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { Linkedin } from "lucide-react";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "About Us | Safra IT Consulting",
+  description:
+    "Learn more about Safra IT Consulting, our mission, and our leadership team.",
+  openGraph: {
+    title: "About Us - Safra IT Consulting",
+    description:
+      "Meet the team behind Safra IT Consulting and our mission to deliver excellence.",
+    url: "https://www.safraconsulting.com/about",
+    siteName: "Safra IT Consulting",
+    images: ["/og-about.png"], // Optional different image
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us - Safra IT Consulting",
+    description:
+      "Meet the team behind Safra IT Consulting and our mission to deliver excellence.",
+    images: ["/og-about.png"],
+  },
+};
 export default function AboutPage() {
   return (
     <section className="px-4 md:px-8 py-20 max-w-6xl mx-auto">
@@ -107,13 +128,13 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* CEO */}
           <div className="flex flex-col items-center text-center">
-            <Image
+            {/* <Image
               src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg"
               alt="CEO"
               width={300}
               height={300}
               className="rounded-sm object-cover mb-4 shadow-md"
-            />
+            /> */}
             <h3 className="text-xl font-semibold text-gray-800">⁠Ali Shaikh</h3>
             <p className="text-sm text-gray-500 mb-2">
               Chief Executive Officer
@@ -136,13 +157,13 @@ export default function AboutPage() {
 
           {/* CTO */}
           <div className="flex flex-col items-center text-center">
-            <Image
+            {/* <Image
               src="https://images.pexels.com/photos/3184300/pexels-photo-3184300.jpeg"
               alt="CTO"
               width={300}
               height={300}
               className="rounded-sm object-cover mb-4 shadow-md"
-            />
+            /> */}
             <h3 className="text-xl font-semibold text-gray-800">
               Fazal Shaikh
             </h3>

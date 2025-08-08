@@ -1,6 +1,28 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SDR Outsourcing | Safra IT Consulting",
+  description:
+    "Trained SDRs for lead generation and qualification, delivered remotely under your brand.",
+  openGraph: {
+    title: "SDR Outsourcing",
+    description:
+      "We provide white-label SDR outsourcing to boost lead generation and sales pipeline growth.",
+    url: "https://www.safraconsulting.com/services/sdr",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-services.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SDR Outsourcing",
+    description:
+      "We provide white-label SDR outsourcing to boost lead generation and sales pipeline growth.",
+    images: ["/og-services.png"],
+  },
+};
 
 export default function SDRPage() {
   return (

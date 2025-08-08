@@ -4,7 +4,28 @@ import { useState } from "react";
 import Breadcrumb from "@/components/ui/breadcrumb";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Contact Safra IT Consulting",
+  description:
+    "Get in touch with Safra IT Consulting for IT outsourcing, managed services, and Microsoft technology solutions.",
+  openGraph: {
+    title: "Contact Safra IT Consulting",
+    description:
+      "Let's discuss how we can help your business scale through IT outsourcing and Microsoft technology services.",
+    url: "https://www.safraconsulting.com/contact",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-contact.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Safra IT Consulting",
+    description:
+      "Let's discuss how we can help your business scale through IT outsourcing and Microsoft technology services.",
+    images: ["/og-contact.png"],
+  },
+};
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
 

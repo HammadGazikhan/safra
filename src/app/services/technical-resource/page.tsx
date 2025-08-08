@@ -2,6 +2,30 @@ import Breadcrumb from "@/components/ui/breadcrumb";
 import Image from "next/image";
 import Link from "next/link";
 
+// app/services/technical-resource/page.tsx
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Technical Resource Outsourcing | Safra IT Consulting",
+  description:
+    "Remote L1–L3 engineers and architects, delivered under your brand, on-demand.",
+  openGraph: {
+    title: "Technical Resource Outsourcing",
+    description:
+      "Scale your delivery capacity with offshore technical experts — engineers, architects, and more.",
+    url: "https://www.safraconsultingcom/services/technical-resource",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-services.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Technical Resource Outsourcing",
+    description:
+      "Scale your delivery capacity with offshore technical experts — engineers, architects, and more.",
+    images: ["/og-services.png"],
+  },
+};
+
 export default function TechnicalResourcePage() {
   return (
     <section className="px-4 md:px-8 py-20 max-w-5xl mx-auto">
@@ -25,7 +49,7 @@ export default function TechnicalResourcePage() {
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
             <li>Remote L1, L2, L3 engineers & solution architect</li>
             <li>Region-specific pools for timezone alignment</li>
-            <li>Offshore, white-labeled delivery model</li> 
+            <li>Offshore, white-labeled delivery model</li>
             <li>Fast onboarding, no long-term hiring</li>
           </ul>
           <Link

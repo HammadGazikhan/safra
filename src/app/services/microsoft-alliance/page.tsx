@@ -1,6 +1,28 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Microsoft Alliance & Partner Support | Safra IT Consulting",
+  description:
+    "Helping Microsoft Partners transition to new Solution Partner Designations, manage CO-OP funds, and optimize MPN.",
+  openGraph: {
+    title: "Microsoft Alliance & Partner Support",
+    description:
+      "Safra helps Microsoft Partners with designations, CO-OP, CPOR/DPOR, and program optimization.",
+    url: "https://www.safraconsulting.com/services/microsoft-alliance",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-services.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Microsoft Alliance & Partner Support",
+    description:
+      "Safra helps Microsoft Partners with designations, CO-OP, CPOR/DPOR, and program optimization.",
+    images: ["/og-services.png"],
+  },
+};
 
 export default function SPDPage() {
   return (

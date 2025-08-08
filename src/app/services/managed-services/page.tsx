@@ -1,7 +1,28 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata: Metadata = {
+  title: "24/7 Managed Services & Support | Safra IT Consulting",
+  description:
+    "Round-the-clock IT monitoring, RMM/SIEM tools, and SLA-backed support — delivered remotely under your brand.",
+  openGraph: {
+    title: "24/7 Managed Services & Support",
+    description:
+      "We deliver white-label managed IT services, including 24/7 monitoring, cybersecurity, and SLA-backed support.",
+    url: "https://www.safraconsulting.com/services/managed-services",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-services.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "24/7 Managed Services & Support",
+    description:
+      "We deliver white-label managed IT services, including 24/7 monitoring, cybersecurity, and SLA-backed support.",
+    images: ["/og-services.png"],
+  },
+};
 export default function ManagedPage() {
   return (
     <section className="px-4 md:px-8 py-20 max-w-5xl mx-auto">

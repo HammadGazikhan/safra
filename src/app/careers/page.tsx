@@ -1,7 +1,28 @@
 import Breadcrumb from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Link from "next/link";
 
+export const metadata: Metadata = {
+  title: "Careers at Safra IT Consulting",
+  description:
+    "Join Safra IT Consulting — work with global clients on cutting-edge Microsoft, cybersecurity, and development projects.",
+  openGraph: {
+    title: "Careers at Safra IT Consulting",
+    description:
+      "Work remotely with global clients and top-tier tech teams. Explore open roles at Safra IT Consulting.",
+    url: "https://www.safraconsulting.com/careers",
+    siteName: "Safra IT Consulting",
+    images: [{ url: "/og-careers.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Careers at Safra IT Consulting",
+    description:
+      "Work remotely with global clients and top-tier tech teams. Explore open roles at Safra IT Consulting.",
+    images: ["/og-careers.png"],
+  },
+};
 export default function CareersPage() {
   return (
     <section className="px-4 md:px-8 py-20 max-w-4xl mx-auto">

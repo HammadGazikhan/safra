@@ -15,7 +15,7 @@ const services = [
     title: "Microsoft Alliance",
     description:
       "Microsoft partnership & program support including CO-OP, MCI, CPOR, and Certification assistance.",
-    href: "/services/microsoft-alliances",
+    href: "/services/microsoft-alliance",
   },
   {
     title: "Technical Resource Outsourcing",

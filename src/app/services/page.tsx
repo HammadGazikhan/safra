@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 
 const services = [
   {
@@ -28,12 +29,30 @@ const services = [
     href: "/services/managed-services",
   },
   {
-    title: "Microsoft Alliances",
+    title: "Microsoft Alliance",
     description:
       "We support Microsoft partners with certification-as-a-service, audits, CO-OP claims, and more.",
-    href: "/services/microsoft-alliances",
+    href: "/services/microsoft-alliance",
   },
 ];
+export const metadata: Metadata = {
+  title: "Our Services | Safra IT Consulting",
+  description:
+    "Explore our white-label IT outsourcing, managed services, and software development solutions.",
+  openGraph: {
+    title: "Services - Safra IT Consulting",
+    description: "Tailored IT services for your business growth.",
+    url: "https://www.safraconsulting.com/services",
+    siteName: "Safra IT Consulting",
+    images: ["/og-services.png"], // Different from home page
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Services - Safra IT Consulting",
+    description: "Tailored IT services for your business growth.",
+    images: ["/og-services.png"],
+  },
+};
 
 export default function ServicesOverviewPage() {
   return (

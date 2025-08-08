@@ -1,10 +1,7 @@
-"use client";
-
-import { useState } from "react";
 import Breadcrumb from "@/components/ui/breadcrumb";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
+import { ContactSection } from "@/components/sections/contactus";
 
 export const metadata: Metadata = {
   title: "Contact Safra IT Consulting",
@@ -27,8 +24,6 @@ export const metadata: Metadata = {
   },
 };
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false);
-
   return (
     <section className="px-4 md:px-8 py-20 max-w-4xl mx-auto">
       <Breadcrumb paths={[{ name: "Home", href: "/" }, { name: "Contact" }]} />
@@ -38,61 +33,7 @@ export default function ContactPage() {
         Looking forward to helping you grow faster.
       </p>
 
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          setSubmitted(true);
-        }}
-        className="space-y-2"
-      >
-        <div>
-          <label className="block text-sm font-medium text-gray-700">
-            Full Name
-          </label>
-          <input
-            type="text"
-            required
-            className="mt-1 h-10 md:h-12 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700">
-            Email
-          </label>
-          <input
-            type="email"
-            required
-            className="mt-1 h-10 md:h-12 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700">
-            Company
-          </label>
-          <input
-            type="text"
-            className="mt-1 h-10 md:h-12 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700">
-            Message
-          </label>
-          <textarea
-            rows={4}
-            required
-            className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-          />
-        </div>
-
-        <Button type="submit">Submit</Button>
-
-        {submitted && (
-          <p className="text-green-600 font-medium pt-2">
-            ✅ Thank you! We'll get back to you shortly.
-          </p>
-        )}
-      </form>
+      <ContactSection />
 
       <div className="mt-10 text-center">
         <p className="text-gray-600 mb-3">Prefer to speak directly?</p>

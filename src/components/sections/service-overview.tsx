@@ -12,17 +12,19 @@ const services = [
     href: "/services/sdr",
   },
   {
-    title: "Microsoft Alliance",
-    description:
-      "Microsoft partnership & program support including CO-OP, MCI, CPOR, and Certification assistance.",
-    href: "/services/microsoft-alliance",
-  },
-  {
     title: "Technical Resource Outsourcing",
     description:
       "Remote L1–L3 engineers and architects deployed offshore, under your brand. Fully scalable, on-demand.",
     href: "/services/technical-resource",
   },
+
+  {
+    title: "24/7 Managed Services & Support",
+    description:
+      "RMM/SIEM stack-based IT support with SLAs, reporting, and continuous monitoring under white-label delivery.",
+    href: "/services/managed-services",
+  },
+
   {
     title: "Software Development",
     description:
@@ -30,10 +32,10 @@ const services = [
     href: "/services/software-development",
   },
   {
-    title: "24/7 Managed Services & Support",
+    title: "Microsoft Alliance",
     description:
-      "RMM/SIEM stack-based IT support with SLAs, reporting, and continuous monitoring under white-label delivery.",
-    href: "/services/managed-services",
+      "Microsoft partnership & program support including CO-OP, MCI, CPOR, and Certification assistance.",
+    href: "/services/microsoft-alliance",
   },
 ];
 

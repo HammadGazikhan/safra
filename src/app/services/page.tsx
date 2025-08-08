@@ -17,16 +17,16 @@ const services = [
     href: "/services/technical-resource",
   },
   {
-    title: "Software Development",
-    description:
-      "From MVPs to enterprise platforms we help you ship high-quality software products faster.",
-    href: "/services/software-development",
-  },
-  {
     title: "Managed Services",
     description:
       "Our 24/7 support teams help you monitor, manage, and secure client environments with confidence.",
     href: "/services/managed-services",
+  },
+  {
+    title: "Software Development",
+    description:
+      "From MVPs to enterprise platforms we help you ship high-quality software products faster.",
+    href: "/services/software-development",
   },
   {
     title: "Microsoft Alliance",

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Safra IT Consulting",
     images: [
       {
-        url: "/og-image.png", // Public image in /public
+        url: "/og-about.png", // Public image in /public
         width: 1200,
         height: 630,
         alt: "Safra IT Consulting Banner",

@@ -41,8 +41,14 @@ export default function SDRPage() {
             SDR Outsourcing
           </h1>
           <p className="text-gray-700 mb-6">
-            Trained SDRs working under your brand to generate, qualify, and
-            nurture outbound leads 100% white-labeled.
+            We help companies accelerate revenue growth by providing outbound
+            sales as a service. Rather than investing in building and managing
+            an internal team, businesses partner with us to run highly
+            personalized, multi-channel outreach campaigns designed to deliver
+            qualified meetings. Powered by thorough human-led research and
+            compelling messaging, we operate as an extension of your team
+            bringing fresh perspectives, rapid execution, and the expertise
+            needed to stand out and win in today’s competitive market.
           </p>
           <ul className="list-disc ml-5 space-y-2 text-gray-600">
             <li>Outbound lead generation & qualification</li>

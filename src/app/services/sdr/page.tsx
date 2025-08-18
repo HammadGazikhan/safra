@@ -54,7 +54,8 @@ export default function SDRPage() {
             <li>Outbound lead generation & qualification</li>
             <li>
               Trained SDR pool skilled in B2B outreach and sales automation
-              tools.
+              tools. Trained SDRs working under your brand to generate, qualify, and
+              nurture outbound leads 100% white-labeled.
             </li>
             <li>Remote delivery with full transparency</li>
             <li>White-label integration with your team</li>

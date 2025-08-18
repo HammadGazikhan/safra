@@ -10,9 +10,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         {/* Brand Info */}
         <div>
-          <h2 className="text-[27px]  font-bold text-white mb-3">
-            Safra Consulting
-          </h2>
+          <div className="flex items-center gap-2 mb-3">
+            <img
+              src="/favicon.jpeg"
+              alt="Safra Consulting Logo"
+              className="w-8 h-8"
+            />
+            <h2 className="text-[27px]  font-bold text-white ">
+              Safra Consulting
+            </h2>
+          </div>
           <p className="text-sm text-gray-400 leading-relaxed">
             Empowering Microsoft Partners through Staff Augmentation, Microsoft
             Alliance and 24/7 Managed Services & Support.
@@ -51,7 +58,7 @@ export default function Footer() {
             <li className="flex items-center gap-2">
               <Linkedin className="w-4 h-4" />
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/safra-it-consulting-pvt-ltd/ "
                 target="_blank"
                 rel="noopener noreferrer"
               >

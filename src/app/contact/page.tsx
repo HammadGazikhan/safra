@@ -38,8 +38,8 @@ export default function ContactPage() {
       <div className="mt-10 text-center">
         <p className="text-gray-600 mb-3">Prefer to speak directly?</p>
         <Link
-          href=""
-          // target="_blank"
+          href="https://outlook.office365.com/owa/calendar/SafraITConsulting1@safraconsulting.com/bookings/"
+          target="_blank"
           className="inline-block text-sm text-[#06c6ef] hover:underline font-medium"
         >
           📅 Book a Call →

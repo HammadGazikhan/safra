@@ -137,15 +137,23 @@ export default function AboutPage() {
             /> */}
             <h3 className="text-xl font-semibold text-gray-800">⁠Ali Shaikh</h3>
             <p className="text-sm text-gray-500 mb-2">
-              Chief Executive Officer
+              Founder, Cheif Executive Officer
             </p>
             <p className="text-sm text-gray-600 max-w-xs">
-              A strategic thinker with 15+ years of experience in global IT
-              delivery, Ali is focused on scaling Safra through smart
-              partnerships and people-first solutions.
+              A strategic thinker with extensive experience in global IT
+              delivery, Ali is focused on scaling through smart partnerships and
+              people-first solutions. With deep expertise in the Microsoft
+              ecosystem, spanning partners and distributors in cloud
+              transformation he helps organizations unlock the full value of
+              Microsoft technologies while building strong, collaborative
+              partner networks. Passionate about scalable partner-to-partner
+              (P2P) collaboration, Ali emphasizes people-first consulting and
+              innovative go-to-market strategies. His mission is to position
+              Safra as a trusted enabler within the Microsoft ecosystem,
+              bridging the gap between partners and customers worldwide.
             </p>
             <a
-              href="https://linkedin.com"
+              href=" https://www.linkedin.com/in/ali-shaikh-465aa237a/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center text-blue-600 hover:underline text-sm"
@@ -168,15 +176,20 @@ export default function AboutPage() {
               Fazal Shaikh
             </h3>
             <p className="text-sm text-gray-500 mb-2">
-              Chief Technology Officer
+              Co-founder, Chief Technology Officer
             </p>
             <p className="text-sm text-gray-600 max-w-xs">
-              With deep expertise in Microsoft technologies and enterprise
-              architecture, Fazal leads Safra's technical direction with
-              innovation and precision.
+              Leads strategic collaboration with partners and key IT
+              distributors to drive engagement and technical alignment. Fazal’s
+              role focuses on enabling partners by equipping them with knowledge
+              of the latest Microsoft motions, offers, and solution-based
+              promotions from distributors and vendors. By helping partners
+              leverage these effectively, we empower them to execute
+              industry-specific initiatives and deliver the right solutions to
+              the right customers at the right time.
             </p>
             <a
-              href="https://linkedin.com"
+              href="linkedin.com/in/fazal-shaikh-733131378"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center text-blue-600 hover:underline text-sm"

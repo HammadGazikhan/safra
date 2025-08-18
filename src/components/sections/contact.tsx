@@ -54,8 +54,8 @@ export default function ContactSection() {
 
         <div className="mt-6">
           <a
-            href="" // replace with real link
-            // target="_blank"
+            href="https://outlook.office365.com/owa/calendar/SafraITConsulting1@safraconsulting.com/bookings/" // replace with real link
+            target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline text-sm hover:text-blue-800"
           >

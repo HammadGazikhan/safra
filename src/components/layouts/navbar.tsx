@@ -1,61 +1,3 @@
-// // src/components/layout/Navbar.tsx
-// "use client";
-
-// import { Menu } from "lucide-react";
-// import Image from "next/image";
-// import Link from "next/link";
-// import { useState } from "react";
-
-// const navItems = [
-//   { label: "Home", href: "/" },
-//   { label: "About", href: "/about" },
-//   { label: "Services", href: "/services" },
-//   { label: "Teams", href: "/teams" },
-//   { label: "Careers", href: "/careers" },
-//   { label: "Contact", href: "/contact" },
-// ];
-
-// export default function Navbar() {
-//   const [open, setOpen] = useState(false);
-
-//   return (
-//     <header className="sticky top-0 z-50 bg-white shadow-sm">
-//       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-//         <Link href="/">
-//           <Image src="/og-image.jpeg" alt="Logo" width={60} height={40} />
-//         </Link>
-//         <nav className="hidden md:flex gap-6">
-//           {navItems.map((item) => (
-//             <Link
-//               key={item.href}
-//               href={item.href}
-//               className="text-gray-700 hover:text-[#20aad2fc]"
-//             >
-//               {item.label}
-//             </Link>
-//           ))}
-//         </nav>
-//         <button onClick={() => setOpen(!open)} className="md:hidden">
-//           <Menu />
-//         </button>
-//       </div>
-
-//       {open && (
-//         <div className="md:hidden px-4 py-2 space-y-2 bg-white shadow-md">
-//           {navItems.map((item) => (
-//             <Link
-//               key={item.href}
-//               href={item.href}
-//               className="block text-gray-700 hover:text-[#20aad2fc]"
-//             >
-//               {item.label}
-//             </Link>
-//           ))}
-//         </div>
-//       )}
-//     </header>
-//   );
-// }
 "use client";
 
 import { useState } from "react";
@@ -103,7 +45,7 @@ export const Navbar = (props: Navbar1Props) => {
       <div className="size-full lg:max-w-7xl mx-auto lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href={logo.url}>
-            <img src={logo.src} alt={logo.alt} className="h-13 w-20" />
+            <img src={logo.src} alt={logo.alt} className="h-12 w-32" />
           </a>
           <button
             className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"

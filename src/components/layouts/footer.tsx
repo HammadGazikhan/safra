@@ -10,13 +10,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         {/* Brand Info */}
         <div>
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center justify-center bg-white p-2 gap-2 rounded-sm mb-3">
             <img
               src="/favicon.jpeg"
               alt="Safra Consulting Logo"
               className="w-8 h-8"
             />
-            <h2 className="text-[27px]  font-bold text-white ">
+            <h2 className="text-[27px]  font-bold text-gray-900 ">
               Safra Consulting
             </h2>
           </div>

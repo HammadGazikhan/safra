@@ -189,7 +189,7 @@ export default function AboutPage() {
               the right customers at the right time.
             </p>
             <a
-              href="linkedin.com/in/fazal-shaikh-733131378"
+              href="https://www.linkedin.com/in/fazal-shaikh-733131378"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center text-blue-600 hover:underline text-sm"

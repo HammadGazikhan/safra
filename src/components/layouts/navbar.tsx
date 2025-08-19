@@ -45,7 +45,7 @@ export const Navbar = (props: Navbar1Props) => {
       <div className="size-full lg:max-w-7xl mx-auto lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href={logo.url}>
-            <img src={logo.src} alt={logo.alt} className="h-12 w-32" />
+            <img src={logo.src} alt={logo.alt} className="h-10 w-36" />
           </a>
           <button
             className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"

@@ -48,7 +48,7 @@ export default function AboutPage() {
         </div>
         <div className="rounded-lg overflow-hidden shadow-md">
           <Image
-            src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
+            src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
             alt="Safra IT Team"
             width={700}
             height={500}
@@ -153,7 +153,7 @@ export default function AboutPage() {
               bridging the gap between partners and customers worldwide.
             </p>
             <a
-              href=" https://www.linkedin.com/in/ali-shaikh-465aa237a/"
+              href="https://www.linkedin.com/in/ali-shaikh-bb0b5a37b"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center text-blue-600 hover:underline text-sm"
